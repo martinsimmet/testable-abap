@@ -1,6 +1,6 @@
 
 # [testable-abap](https://github.com/martinsimmet/testable-abap)
-
+Inspired by [Writing Testable Code for ABAP](https://open.sap.com/courses/wtc1) by Jürgen Heymann and Thomas Hammer
 
 ## [Project Testable Temperature Converter](https://github.com/martinsimmet/testable-abap/projects/1)
 
