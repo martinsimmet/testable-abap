@@ -3,9 +3,26 @@ class zcl_313_ta_temp_convertor definition
   create public .
 
   public section.
-    interfaces: zif_313_ta_temp_convertor.
   protected section.
   private section.
+    methods celsius2fahrenheit
+      importing i_temperature        type decfloat16
+      returning value(r_temperature) type decfloat16.
+    methods celsius2kelvin
+      importing i_temperature        type decfloat16
+      returning value(r_temperature) type decfloat16.
+    methods fahrenheit2celsius
+      importing i_temperature        type decfloat16
+      returning value(r_temperature) type decfloat16.
+    methods fahrenheit2kelvin
+      importing i_temperature        type decfloat16
+      returning value(r_temperature) type decfloat16.
+    methods kelvin2celsius
+      importing i_temperature        type decfloat16
+      returning value(r_temperature) type decfloat16.
+    methods kelvin2fahrenheit
+      importing i_temperature        type decfloat16
+      returning value(r_temperature) type decfloat16.
 
 endclass.
 
@@ -13,27 +30,27 @@ endclass.
 
 class zcl_313_ta_temp_convertor implementation.
 
-  method zif_313_ta_temp_convertor~celsius2fahrenheit.
+  method celsius2fahrenheit.
 
   endmethod.
 
-  method zif_313_ta_temp_convertor~celsius2kelvin.
+  method celsius2kelvin.
 
   endmethod.
 
-  method zif_313_ta_temp_convertor~fahrenheit2celsius.
+  method fahrenheit2celsius.
 
   endmethod.
 
-  method zif_313_ta_temp_convertor~fahrenheit2kelvin.
+  method fahrenheit2kelvin.
 
   endmethod.
 
-  method zif_313_ta_temp_convertor~kelvin2celsius.
+  method kelvin2celsius.
 
   endmethod.
 
-  method zif_313_ta_temp_convertor~kelvin2fahrenheit.
+  method kelvin2fahrenheit.
 
   endmethod.
 
