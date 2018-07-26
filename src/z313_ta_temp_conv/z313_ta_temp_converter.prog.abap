@@ -10,5 +10,4 @@ parameters:
 
 cl_demo_output=>display_data(
   exporting
-    value = new zcl_313_ta_temp_convertor( )->zif_313_ta_temp_convertor~celsius2fahrenheit( i_source_value = temp )
-).
+    value = new zcl_313_ta_temp_convertor( )->zif_313_ta_temp_convertor~celsius2fahrenheit( i_source_value = temp ) ).
