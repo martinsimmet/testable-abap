@@ -67,8 +67,7 @@ class ltc_boundary_value_analysis implementation.
       "Test case 13
       ( kelvin = '255.37'
         celsius = '-17.78'
-        farenheit = '0' )
-    ).
+        farenheit = '0' ) ).
 
     m_data_invalid = value df16_tab_t(
       "Test cases 3, 9, 15
@@ -78,8 +77,7 @@ class ltc_boundary_value_analysis implementation.
       "Test cases 4, 10, 16
       ( kelvin = '16000000.01'
         celsius = '15999726.86'
-        farenheit = '28799540.34' )
-    ).
+        farenheit = '28799540.34' ) ).
 
   endmethod.
 
