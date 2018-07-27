@@ -3,8 +3,6 @@ class zcl_313_ta_temp_convertor definition
   create public .
 
   public section.
-  protected section.
-  private section.
     methods celsius2fahrenheit
       importing i_temperature        type decfloat16
       returning value(r_temperature) type decfloat16.
