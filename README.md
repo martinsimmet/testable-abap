@@ -13,3 +13,6 @@ Provide the skeleton implementation of the converter API. (Public Methods are de
 
 -**[Step 2](https://github.com/martinsimmet/testable-abap/milestone/2):**
 Find a meaningful set of test cases and implement them using ABAP Unit.
+
+-**[Step 3](https://github.com/martinsimmet/testable-abap/milestone/3):**
+Implement the logic of the temperature converter until unit tests run successfully.
